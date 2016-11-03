@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Share Tech Mono', sans-serif;
+}
+
+body {
+	background-image: url("images/background texture.png");
+	background-repeat: repeat;
+	height: 100%;
+	width: 100%;
+}
+
+.anchor {
+	display: block;
+	height: 40px;
+	margin-top: -40px;
+	visibility: hidden;
+}
+
+.navbar {
+	top: 0;
+	height: 40px;
+	width: 100%;
+	background: black;
+	position: fixed;
+	z-index: 2;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: : hidden;
+}
+
+.navbar-left {
+	float: left;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.navbar li:hover {
+	margin-top: 3px;
+	transition: linear all 0.2s;
+	background: green;
+}
+
+.navbar a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 12px;
+}
+
+.navbar-right a {
+	padding: 5px;
+}
+
+.content {
+	position: relative;
+	margin-top: 40px;
+	margin: 0 auto;
+	width: 70%;
+	background: rgba(100, 100, 100, 0.6);
+	margin-bottom: 500px;
+	padding-bottom: 200px;
+}
+
+.home-container {
+	padding-top: 80px;
+	height: auto;
+}
+
+.home-container img {
+	position: absolute;
+	width: 20%;
+	height: auto;
+	padding: 16px;
+	border-radius: 50%;
+	border: solid black;
+	right: 100px;
+}
+
+.home-container h2 {
+	margin-top: 100px;
+	left: 10px;
+	color: white;
+	padding: 16px;
+	font-size: 72px;
+	font-style: italic;
+}
+
+.home-container h3 {
+	margin-left: 100px;
+	color: white;
+	padding: 16px;
+	font-size: 48px;
+	font-style: italic;
+}
+
+.about-container {
+	
+}
+
+.about-container h1 {
+	padding: 16px;
+	text-align: left;
+}
+
+.about-container h2 {
+	text-align: left;
+	margin-left: 75px;
+	padding: 16px;
+}
+
+.resume-container {
+
+}
+
+.resume-container embed {
+	margin-top: 20px;
+	margin-left: 10%;
+	width: 80%;
+	height: 900px;
+	border: 3px solid black;
+}
+
+.contact-container {
+	
+}
+
+.contact-container h1 {
+	padding: 16px;
+	text-align: left;
+}
+
+.contact-container h2 {
+	text-align: left;
+	margin-left: 75px;
+	padding: 16px;
+}
+
+.description {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+}
+
+.description:hover {
+	transition: linear all 0.3s;
+}
+
+.description-text {
+	margin: auto 200px;
+	padding: 16px;
+}
+
+.description-text a {
+	text-decoration: none;
+}
+
+.skill-list {
+	list-style: none;
+	margin: auto 200px;
+}
+
+.skill-list li {
+	display: inline-block;
+	padding: 16px;
+}
